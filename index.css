@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #343a40;
+}
+ 
+
+.navbar{   
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 10px 0px;
+}
+
+.right-nav{
+    width:75%;
+}
+
+.right-nav h1{
+    padding: 0px 15px   ;
+    padding-left: 45px;
+}
+
+  
+.left-nav .lists{
+    display:flex;
+    align-items: center;
+}
+
+.lists li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+.lists a{
+    text-decoration: none;
+    color: #343a40;
+}
+
+.lists .active{
+    color: #248eff;
+    font-weight: bold;
+}
+
+
+.showcase{
+    background-image: url("./cover.jpg");
+    height: 80vh;
+}
+
+.welcome{
+    background-color: rgba(15, 71, 224, 0.5);
+    height: 80vh;
+}
+
+.color{
+    color: #fff ;
+    text-align: center;
+    padding-top:180px;
+}
+
+.color h1{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+
+.color p{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+}
+
+.blogs1{
+    background-color: #f8f9fa;
+    margin-bottom: 50px;
+}
+
+.h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.underline{
+    width: 7%;
+    background-color: #248eff;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.blogs1 span{
+    color: #248eff;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.blog{
+    background-color: #fff;
+}
+
+.right-blog{
+    width: 100%;
+}
+
+.right-blog img{
+    width: 100%;
+}
+
+.left-blog{
+    padding: 10px 15px;
+    padding-bottom: 30px;
+}
+
+.left-blog h1{
+    color: #248eff;
+    margin: 7px 0px;
+}
+
+.left-blog p{
+    margin: 7px 0px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.left-blog a{
+    text-decoration: none;
+    background-color: #248eff;
+    margin-top: 25px;
+    padding:10px 20px;
+    color: #f8f9fa;
+}
+
+footer{
+    background-color: #181d21;
+    color: #6c757d;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+
+
+
+
+
+
+
+.right-nav span{
+    color: #248eff;
+}
+  

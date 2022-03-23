@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #343a40;
+}
+ 
+
+.goal{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.right-goal{
+    width: 80%;
+}
+
+.right-goal img{
+    width: 90%;
+}
+
+.left-goal {
+    width: 70%;
+}
+
+.left-goal p{
+    width: 80%;
+    line-height: 1.25;
+}
+
+span{
+    color: #248eff;
+}
+
+
+.left-goal h1{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.journey{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.right-journey{
+    width: 80%;
+}
+
+.right-journey img{
+    width: 90%;
+    border-radius: 100px;
+}
+
+.left-journey {
+    width: 70%;
+}
+
+.left-journey p{
+    width: 80%;
+    line-height: 1.25;
+}
+
+span{
+    color: #248eff;
+}
+
+
+.left-journey h1{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lists .active{
+    color: #248eff;
+    font-weight: bold;
+}
